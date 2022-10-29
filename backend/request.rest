@@ -1,0 +1,31 @@
+GET http://localhost:5000/users
+
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json 
+
+{
+    "name" : "Laptop Compaq",
+    "price": "12.000.000",
+    "stock": "15"
+
+}
+
+###
+
+PATCH http://localhost:5000/users/635b6f3305a8475f258c91d0
+Content-Type: application/json 
+
+{
+    "name" : "Laptop ROG",
+    "price": "27.000.000",
+    "stock": "10"
+
+}
+
+
+###
+DELETE http://localhost:5000/users/6358e6cc63e2712a7e756c86
+ 
+
